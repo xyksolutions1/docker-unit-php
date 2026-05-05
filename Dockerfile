@@ -1,7 +1,7 @@
 ARG DISTRO=alpine
 ARG DISTRO_VARIANT=edge
 
-FROM docker.io/tiredofit/unit:${DISTRO}-${DISTRO_VARIANT}
+FROM docker.io/xyksolutions1/docker-unit:main
 LABEL maintainer="Dave Conroy (dave at tiredofit dot ca)"
 
 ARG PHP_BASE
